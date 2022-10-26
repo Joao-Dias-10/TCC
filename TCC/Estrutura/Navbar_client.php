@@ -1,7 +1,7 @@
 
 <nav id="nav" class="navbar navbar-expand-lg navbar-light bg-warning">
   <div class="container-fluid">
-    <a class="navbar-brand" href="grafico.php">
+    <a class="navbar-brand" href="treino.php">
 
       <img id="hermes" src="..\TCC\assets\img\peso_branco.png" height="30"> <font color="FFFFFFF">PERSONALIZE</font>
 

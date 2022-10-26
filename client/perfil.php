@@ -33,7 +33,7 @@
 
                 <!-- Button trigger modal -->
                 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-                    TREINO
+                    Meus Dados
                 </button>
 
 
@@ -43,7 +43,7 @@
                     <div class="modal-dialog">
                         <div class="modal-content">
                             <div class="modal-header">
-                                <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+                                <h5 class="modal-title" id="staticBackdropLabel">Informações</h5>
 
                             </div>
                             <div class="modal-body">
@@ -57,12 +57,19 @@
                                             <table id="example" class="display" style="width:100%">
                                                 <thead>
                                                     <tr>
-                                                        <th style="text-align: center">EXIBIR</th>
-                                                        <th style="text-align: center">EXERCÍCIO</th>
-                                                        <th style="text-align: center">EDITAR</th>
+                                                        <th style="text-align: center">exemplo1</th>
+                                                        <th style="text-align: center">exemplo2</th>
+                                                        <th style="text-align: center">exemplo3</th>
 
                                                     </tr>
                                                 </thead>
+                                                <tbody>
+                                                      
+                                                <td style="text-align: center">dados1</td> 
+                                                <td style="text-align: center">dado1</td> 
+                                                <td style="text-align: center">dado1</td> 
+                                                       
+                                                </tbody>
                                             </table>
 
                                         </section>

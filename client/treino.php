@@ -1,6 +1,5 @@
 <?php include "../TCC\Estrutura\Head.php"; ?>
-<?php include "../TCC\Estrutura\Navbar_client.php"; 
-$cpf = $_SESSION['cpf']; var_dump($_SESSION);?>
+<?php include "../TCC\Estrutura\Navbar_client.php";?>
 <div id="espaco">
 
 
@@ -9,7 +8,7 @@ $cpf = $_SESSION['cpf']; var_dump($_SESSION);?>
     <div class="row">
         <section class="content">
             <?php include "../scripts/config.php";
-            $sql = "SELECT * FROM treinos where usuarios_cpf = '$cpf'";
+            $sql = "SELECT * FROM treinos where usuarios_cpf = '222.222.222-22'";
             $query = $mysqli->query($sql);
             while ($dados = $query->fetch_array()) { ?>
                 <div class="accordion-item" style="overflow-x: scroll;">
