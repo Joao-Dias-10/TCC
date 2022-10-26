@@ -1,0 +1,100 @@
+
+::selection{
+  background: linear-gradient(190deg,#ff9f4e 20%,  #f25c21 100%);
+  color: #fff;
+}
+
+.container{
+  
+  max-width: 1100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 40px 30px;
+}
+.container .box{
+  box-shadow: 0 51px 67px 28px rgb(0 0 0 / 25%);
+  width: calc(33% - 10px);
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 30px;
+  border-radius: 21px;
+  margin: 5px;
+}
+.box .quote i{
+margin-top: 10px;
+font-size: 45px;
+color: #17c0eb
+}
+.container .box .image{
+  margin: 10px 0;
+  height: 150px;
+  width: 150px;
+  background: linear-gradient(190deg,#ff9f4e 20%,  #f25c21 100%);
+  padding: 3px;
+  border-radius: 50%;
+}
+.box .image img{
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #fff;
+}
+.box p{
+  text-align: justify;
+  margin-top: 8px;
+  font-size: 16px;
+  font-weight: 400;
+}
+.box .name_job{
+  margin: 10px 0 3px 0;
+  color: #f25c21;
+  font-size: 18px;
+  font-weight: 600;
+}
+.rating i{
+  font-size: 18px;
+  color: #f25c21;
+  margin-bottom: 5px;
+}
+.btns{
+  margin-top: 20px;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.btns button{
+  box-shadow: 0 51px 67px 28px rgb(0 0 0 / 6%);
+  background: linear-gradient(190deg,#ff9f4e 20%,  #f25c21 100%);
+  width: 100%;
+  padding: 9px 0px;
+  outline: none;
+  border: 2px solid #ffffff;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 400;
+  color: #ffffff;
+  transition: all 0.3s linear;
+  text-transform: uppercase;
+}
+
+
+@media (max-width:1045px){
+  .container .box{
+    width: calc(50% - 10px);
+    margin-bottom: 20px;
+  }
+}
+@media (max-width:710px){
+  .container .box{
+    width: 100%;
+
+  }
+}

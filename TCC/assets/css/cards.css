@@ -1,0 +1,134 @@
+
+
+body{  
+  background-color: #fcfbef;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+
+@media (min-width: 300px) {
+  body{  
+
+    background-image: url(mobile.png);
+    
+  }
+}
+
+@media (min-width: 550px) and (max-width: 2000px) {
+    body{  
+
+      background-image: url(background.png);
+      
+    }
+  }
+
+.accordion-item{
+  box-shadow: rgb(78, 78, 78) 0 0 5px;
+
+}
+#nav{
+
+    box-shadow: rgb(78, 78, 78) 0 0 5px;
+   background: linear-gradient(190deg,#ff9f4e 20%,  #f25c21 100%);
+  } 
+
+
+#busca{
+  margin: 20px 30px 20px;
+}
+
+
+.content{
+    margin: 0%;
+}
+
+#hermes{
+    margin: 0px 10px 0px 0px;
+}
+
+#user{
+  margin: 20px;
+}
+#buttonuser{
+  border-radius: 50px;
+  height: 10px;
+}
+
+/*index*/
+A {
+        text-decoration: none;
+    }
+
+#mis {
+        margin-left: 3%;
+    }
+
+
+/* inserir*/
+
+.caixa {
+  margin: 40px 100px 40px;
+  /* background: linear-gradient(180deg, #e7e7e7 20%, #e9f5f3 100%); 
+  border-radius: 15px;
+  box-shadow: rgb(78, 78, 78) 0 0 5px; */
+}
+
+.caixa2 {
+  margin: 47px 50px 20px;
+}
+
+#espaco {
+  margin: 4%;
+}
+
+label {
+  margin: 23px;
+  text-transform: uppercase;
+}
+
+input{
+
+  box-shadow: rgb(78, 78, 78) 0 0 5px;
+  
+}
+textarea{
+
+ 
+  box-shadow: rgb(78, 78, 78) 0 0 5px;
+ 
+
+}
+
+h4 {
+  color: white;
+}
+
+#button {
+  box-shadow: rgb(78, 78, 78) 0 0 5px;
+  text-transform: uppercase;
+
+
+}
+
+#submit{
+ box-shadow: rgb(78, 78, 78) 0 0 5px;
+  text-transform: uppercase;
+  background: linear-gradient(190deg,#ff9f4e 20%,  #f25c21 100%);
+
+}
+
+select{
+  box-shadow: rgb(78, 78, 78) 0 0 5px;
+}
+
+
+
+#espaco{
+  margin-top: 4%;
+}
+
+
